@@ -1,8 +1,15 @@
-<view class='contain'>
+<view class='container'>
   <image src="/images/simba.jpg" class='about-banner'></image>
 
   <text id='a'>电影周周看</text>
-  <text>每周推荐一部好片</text>
+
+  <view>
+  <!-- open-type属性如果设置为redirect跳过去就不会有返回按键了 -->
+  <!-- 当在导航栏切换时可以设置为switchtap，默认是navigate -->
+    <navigator url='../weekly/weekly' class='nav-default' open-type='switchTab'
+    hover-class='nav-hover'>每周推荐</navigator>
+    <text>一部好片</text>
+  </view>
   <text>我的微博:weibo.com/jasonleeeeee</text>
 </view>
 

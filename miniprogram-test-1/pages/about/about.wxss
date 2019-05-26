@@ -1,22 +1,9 @@
-.contain{
-  background-color: white;
-  height: 100vh;
-
-  display: flex;
-  /* 使得弹性盒子垂直分布 */
-  flex-direction: column;
-  justify-content: space-around;
-
-  /* 每一行的元素居中 */
-  align-items: center;
+/* 很奇怪用id选择器的话下面的样式就不生效了 */
+.nav-default{
+  display: inline;
+  color: blue;
 }
-.about-banner{
-  /* 总的屏幕宽度为750rpx */
-  width: 375rpx;
-  height: 375rpx;
-  border-radius: 50%;
-}
-#a{
-  font-weight: bold;
-  font-size: 60rpx;
+/* 定义hover样式 */
+.nav-hover{
+  color: red;
 }
