@@ -1,0 +1,8 @@
+<view class='contain'>
+  <image src="/images/simba.jpg" class='about-banner'></image>
+
+  <text id='a'>电影周周看</text>
+  <text>每周推荐一部好片</text>
+  <text>我的微博:weibo.com/jasonleeeeee</text>
+</view>
+
