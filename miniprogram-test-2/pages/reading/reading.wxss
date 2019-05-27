@@ -1,0 +1,37 @@
+
+
+
+.search{
+  display: flex;
+  background-clip: #fff;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.article{
+  width: 100vh;
+  height: 20vh;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+}
+.article .left{
+  background-color: yellow;
+  width: 25vh;
+  height: 90vh;
+  margin: 0 0;
+
+}
+.article .right{
+  background-color: pink;
+  width: 75vh;
+  height: 90vh;
+  margin: 0 0;
+}
+.container{
+  height: 80%;
+  padding: 80rpx 0;
+}

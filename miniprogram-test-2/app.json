@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/reading/reading",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#44b549",
+    "navigationBarTitleText": "机械简报",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/reading/reading",
+        "text": "阅读",
+        "iconPath": "images/reading.png",
+        "selectedIconPath": "images/reading.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "images/video.png",
+        "selectedIconPath": "images/video.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
