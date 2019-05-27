@@ -11,9 +11,104 @@
   <!-- 滚动列表 -->
   <scroll-view scrool-y="true">
     <view class='article'>
-      <view class='left'></view>
-      <view class='right'></view>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
     </view>
 
+<view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
+    <view class='article'>
+      <view class='left'>
+        <image class='image2' src='/images/03.png'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>《破冰行动》是以哪起真实事件改编的？具体情况是怎样的？</text>
+        </text>
+         
+      </view>
+    </view>
   </scroll-view>
 </view>

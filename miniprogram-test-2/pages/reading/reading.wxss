@@ -1,6 +1,5 @@
 
 
-
 .search{
   display: flex;
   background-clip: #fff;
@@ -12,24 +11,35 @@
 }
 
 .article{
-  width: 100vh;
-  height: 20vh;
-  border: 3px solid red;
+  width: 100%;
+  height: 20%;
   display: flex;
   flex-direction: row;
+  margin-top: 10rpx;
 }
 .article .left{
-  background-color: yellow;
-  width: 25vh;
-  height: 90vh;
-  margin: 0 0;
 
+  width: 35%;
+  height: 100%;
+  margin: 0 auto;
 }
 .article .right{
-  background-color: pink;
-  width: 75vh;
-  height: 90vh;
-  margin: 0 0;
+  width: 65%;
+  height: 100%;
+}
+
+.article .right .title{
+   display: -webkit-box;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   word-break: break-all;
+   -webkit-box-orient: vertical;
+   line-clamp: 3;
+   margin-right: 10rpx;
+}
+.image2{
+  width: 200rpx;
+  height: 150rpx;
 }
 .container{
   height: 80%;
