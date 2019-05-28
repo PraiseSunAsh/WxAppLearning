@@ -7,16 +7,20 @@
   >
     <!-- 对weeklyMovieList进行循环遍历 -->
     <swiper-item class='movie' wx:for="{{weeklyMovieList}}">
-      <view class='container movie-card'>
+      <!-- 在view组件中添加自定义数据属性 -->
+      <view class='container movie-card' bindtap='f1' data-movie-id='{{item.id}}'>
         <image class='movie-image' src='{{item.imagePath}}'></image>
+
+        
         <!-- index默认指遍历到的key，item默认指遍历到的value -->
+        <text>{{item.id}}</text>
         <text>第{{index+1}}周：{{item.name}}</text>
         <text>点评：{{item.comment}}
         </text> 
         <text wx:if="{{item.isHighlyRecommended}}" style="font-size:16px; color:red;">强烈推荐</text>
 
         <!-- bindtap会向上冒泡 -->
-        <text bindtap='f0' class='return-button' wx:if="{{index!=weeklyMovieList.length - 1}}">返回本周</text>
+        <text catchtap='f0' class='return-button' wx:if="{{index!=weeklyMovieList.length - 1}}">返回本周</text>
       </view>
     </swiper-item>
   </swiper>

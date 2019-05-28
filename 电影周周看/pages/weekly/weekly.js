@@ -10,18 +10,21 @@ Page({
         comment: "失去的才是永恒的",
         imagePath: "/images/titanic.jpg",
         isHighlyRecommended: false,
+        id:77
       },
       {
         name: "这个杀手不太冷",
         comment: "小萝莉与怪蜀黍纯真灿烂的爱情故事",
         imagePath: "/images/leon.jpg",
         isHighlyRecommended: false,
+        id:88
       },
       {
         name: "教父",
         comment: "最精彩的剧本，最真实的黑帮电影。",
         imagePath: "/images/jf.jpg",
         isHighlyRecommended: true,
+        id: 103937
       }
     ],
     //视图发生更改并不会影响到currentIndex的值
@@ -86,7 +89,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    
+    return{
+      title:"每周推荐"
+    }
   },
   f0:function(event){
     //注意，直接赋值并不能双向绑定数据
@@ -94,6 +99,15 @@ Page({
       currentIndex: this.data.weeklyMovieList.length - 1,
       // 如果编译错误可以用引号把key包起来
       "weeklyMovieList[2].name":"教父三",
+    })
+  },
+  f1:function(event){
+
+    //获取自定义数据属性中的id
+    var movieId = event.currentTarget.dataset.movieId;
+    console.log(movieId);
+    wx.navigateTo({
+      url: '/pages/detail/detail?id='+movieId,
     })
   }
 })

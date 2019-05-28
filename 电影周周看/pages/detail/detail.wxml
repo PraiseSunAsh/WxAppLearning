@@ -1,0 +1,6 @@
+<view class='movieBox'>
+  <text class='movieBasic'>片名：{{movie.data.basic.name}}</text>
+  <text class='movieBasic'>时长：{{movie.data.basic.mins}}</text>
+  <image class='movieImg' src='{{movie.data.basic.img}}'></image>
+  <text class='movieSummary'>{{movie.data.basic.story}}</text>
+</view>
