@@ -1,13 +1,8 @@
 <!--index.wxml-->
 
-<view class='search'>
-    <icon class='searchIcon' size='20' type='search'></icon>
-    <input class='inputSrarch' placeholder='请输入关键字'></input>
-    <view>搜索</view>
-</view>
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
 
 <view class="container">
-  
   <!-- 滚动列表 -->
   <scroll-view scrool-y="true">
     <view class='article'>

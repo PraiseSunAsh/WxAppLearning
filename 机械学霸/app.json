@@ -25,5 +25,9 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+
+  "usingComponents": {
+    "van-search": "dist/search/index"
+  }
 }
