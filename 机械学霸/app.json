@@ -28,6 +28,10 @@
   "sitemapLocation": "sitemap.json",
 
   "usingComponents": {
-    "van-search": "dist/search/index"
+    "van-search": "dist/search/index",
+    "van-row": "dist/row/index",
+    "van-col": "dist/col/index",
+    "van-card": "dist/card/index"
+
   }
 }

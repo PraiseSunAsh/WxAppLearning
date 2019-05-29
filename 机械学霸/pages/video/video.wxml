@@ -1,4 +1,74 @@
 <view class="" hover-class="none" hover-stop-propagation="false">
     <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+    <scroll-view class="container" scroll-x="false" scroll-y="true" upper-threshold="50" lower-threshold="50" 
+      scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+      bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+      
+      <van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+<van-card
+  num=""
+  price=""
+  desc="本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析...。"
+  title="数据结构(上)(自主模式)"
+  thumb="../../images/v-01.jpg"
+  thumb-mode="aspectFit"
+/>
+    </scroll-view>
+  
 </view>
   
