@@ -50,5 +50,18 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  f1:function(event){
+
+    wx.navigateTo({
+      
+      url: 'https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B7%B3%E8%BD%AC%E5%88%B0%E7%BD%91%E9%A1%B5&rsv_spt=1&rsv_iqid=0xe590b7350006802e&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=29&rsv_sug1=11&rsv_sug7=101',
+      success: (result)=>{
+        
+      },
+      fail: ()=>{},
+      complete: ()=>{}
+    });
   }
+  
 })
