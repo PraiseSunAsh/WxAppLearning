@@ -9,11 +9,12 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.0",
-	"appid": "wx292808a9c904db20",
+	"libVersion": "2.7.1",
+	"appid": "wx1731045f3cfde383",
 	"projectname": "%E6%9C%BA%E6%A2%B0%E5%AD%A6%E9%9C%B8",
 	"debugOptions": {
 		"hidedInDevtools": []

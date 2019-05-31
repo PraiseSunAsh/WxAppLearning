@@ -1,3 +1,6 @@
+const txvContext = requirePlugin("tencentvideo");
+
+
 // pages/detail/detail.js
 Page({
 
