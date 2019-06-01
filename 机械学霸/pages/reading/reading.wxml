@@ -5,7 +5,8 @@
 <view class="container">
   <!-- 滚动列表 -->
   <scroll-view scrool-y="true">
-    <view class='article' bindtap='f1' wx:for="{{articleList}}">
+                                                             <!-- 列表项添加自定义数据属性 -->
+    <view class='article' bindtap='f1' wx:for="{{articleList}}" data-link='{{item.link}}'>
       <view class='left'>
         <image class='image2' src='{{item.imgsrc}}'></image>
       </view>
@@ -18,11 +19,6 @@
     </view>
 
     
-
-
-
-
-
 
   </scroll-view>
 </view>

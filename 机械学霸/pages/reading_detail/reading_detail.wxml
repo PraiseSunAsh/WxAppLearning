@@ -1,2 +1,2 @@
 
-<web-view src="https://mp.weixin.qq.com/s/SIPPiIez4LKVkukR9n_-8A" bindmessage=""></web-view>
+<web-view src="{{link}}" bindmessage=""></web-view>

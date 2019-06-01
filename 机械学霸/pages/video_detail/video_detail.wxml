@@ -1,0 +1,5 @@
+<!--pages/video_detail.wxml-->
+<txv-video vid="{{link}}" playerid="txv1"></txv-video>
+<text class="title" selectable="false" space="false" decode="false">
+    {{title}}
+</text>

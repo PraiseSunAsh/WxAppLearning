@@ -1,13 +1,12 @@
-
-
-// pages/detail/detail.js
+// pages/video_detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    link:""
+    link:"",
+    title:""
   },
 
   /**
@@ -15,9 +14,11 @@ Page({
    */
   onLoad: function (options) {
     var appInst =  getApp();
-    var value = appInst.globalData.link
-    //在加载页面的时候把链接传过去
-    this.setData({link:value});
+    var linkValue = appInst.globalData.link;
+    //在加载页面的时候把链接和标题传过去
+    this.setData({link:linkValue});
+    var titleValue = appInst.globalData.title;
+    this.setData({title:titleValue});
   },
 
   /**
