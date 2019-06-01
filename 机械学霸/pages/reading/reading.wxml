@@ -7,7 +7,7 @@
   <scroll-view scrool-y="true">
     <view class='article' bindtap='f1'>
       <view class='left'>
-        <image class='image2' src='/images/03.png'></image>
+        <image class='image2' src='http://puui.qpic.cn/qqvideo_ori/0/x0870oan3jp_496_280/0'></image>
       </view>
       <view class='right'>
         <text>
