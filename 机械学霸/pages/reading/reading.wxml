@@ -5,17 +5,23 @@
 <view class="container">
   <!-- 滚动列表 -->
   <scroll-view scrool-y="true">
-    <view class='article' bindtap='f1'>
+    <view class='article' bindtap='f1' wx:for="{{articleList}}">
       <view class='left'>
-        <image class='image2' src='http://puui.qpic.cn/qqvideo_ori/0/x0870oan3jp_496_280/0'></image>
+        <image class='image2' src='{{item.imgsrc}}'></image>
       </view>
       <view class='right'>
         <text>
-           <text class='title'>动图展示常见金属加工成型工艺，简单易懂！</text>
+           <text class='title'>{{item.title}}</text>
         </text>
          
       </view>
     </view>
+
+    
+
+
+
+
 
 
   </scroll-view>

@@ -1,13 +1,42 @@
 //index.js
 //获取应用实例
+
+
 const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    //文章列表先用对象数组存起来
+    articleList:[
+      {
+        title:"动图展示常见金属加工成型工艺，简单易懂",
+        imgsrc:"https://mmbiz.qpic.cn/mmbiz_gif/ZxmmZHbMicpYBial3KiaJNHAUzDnjFjRVMnohF5qib8FGmogK0sVY2bIBTAGaRyFSacBaMJolfUrgjTlzFaw7Mb5dA/640?tp=webp&wxfrom=5&wx_lazy=1"       
+      },
+      {
+        title:"以神的名义命名的金属到底有多强？",
+        imgsrc:"https://mmbiz.qpic.cn/mmbiz_gif/mxlhF49U3zSk6Y91FaB3c4VHWwM6DtSBnojVJFEA1ta7blCqgC8mg1Xo3syZZTP3Z8OFzwB07kfB1GibIAMP74w/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1"       
+      },
+      {
+        title:"七大类47种工控仪表原理，一看就懂！",
+        imgsrc:"https://mmbiz.qpic.cn/mmbiz_gif/vSABwyURAViaqHicOZKFSqPfMOt4bC2icWIFMQWHoCWVWVeLYib4MtYaoWwp1TZkuAnqsT6s1HABhlq6hmbPSx6qog/640?tp=webp&wxfrom=5&wx_lazy=1"       
+      },
+      {
+        title:"机械干了一辈子，你知道表面粗糙度为什么用0.8, 1.6, 3.2？",
+        imgsrc:"https://mmbiz.qpic.cn/mmbiz_jpg/3PE7rXJ1K6mFjeMm8fz2u07FLDXSrDYCdibCEyVKvAseXQOMv9qMTLrdEictHm7iciaQGjEP4MGql8eHC5TwRYoYXA/640?tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"       
+      },
+      {
+        title:"机械工程师生存现状挥泪解析：不忍直视",
+        imgsrc:"https://mmbiz.qpic.cn/mmbiz_jpg/8P5TsHXeRdOZ8xZh5wduAWcib9a86L6Pr3HNXfkCHaQsianJqbZb7icH9eu7DRM13M720nwL8lLyUnQpdicF4WNVnA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"       
+      },
+      {
+        title:"螺纹相关知识，看这一篇就够了！",
+        imgsrc:"https://mmbiz.qpic.cn/mmbiz_jpg/PVFbKWRaEmO0pBhdlPq3kzZFfd2cFch5C4kJzLKph2XicYa8Kg8hB4STTPtocWWicI3CGibArmeYOk4iaxwkylopTQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"       
+      },
+      {
+        title:"从单缸到64缸的发动机，你都见过吗？",
+        imgsrc:"http://mmbiz.qpic.cn/mmbiz_png/uoZqmPwljJNv43k6Ou37ttsbAq0GghdG9MVYRqjckw7X1722vyJzFJ1icqO3QhxYxwLhdR19HAEQZBgpc66bGFA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"       
+      },
+    ],
   },
   //事件处理函数
   bindViewTap: function() {
@@ -52,9 +81,9 @@ Page({
     })
   },
   f1:function(event){
-
+    
     wx.navigateTo({
-        url: '../detail/detail',
+        url: '../reading_detail/reading_detail',
         success: (result)=>{
             
         },

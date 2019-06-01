@@ -2,7 +2,7 @@
   "pages": [
     "pages/reading/reading",
     "pages/video/video",
-    "pages/detail/detail"
+    "pages/reading_detail/reading_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
