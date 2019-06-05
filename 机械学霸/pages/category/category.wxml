@@ -1,0 +1,45 @@
+<van-tabs active="{{ active }}" bind:change="onChange" color="#44b549">
+  <van-tab title="文章">
+    <view class='col'>
+      <view class='row'>
+        <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      </view>
+
+      <view class='row'>
+        <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      </view>
+
+      <view class='row'>
+        <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      </view>
+
+      <view class='row'>
+        <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      <view>
+        <van-button plain type="primary">朴素按钮</van-button>
+      </view>
+      </view>
+    </view>
+  </van-tab>
+
+  <van-tab title="视频">
+
+  </van-tab>
+</van-tabs>

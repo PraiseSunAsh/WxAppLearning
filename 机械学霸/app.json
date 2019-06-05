@@ -3,7 +3,8 @@
     "pages/reading/reading",
     "pages/video/video",
     "pages/reading_detail/reading_detail",
-    "pages/video_detail/video_detail"
+    "pages/video_detail/video_detail",
+    "pages/category/category"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,6 +25,12 @@
         "text": "视频",
         "iconPath": "images/video.png",
         "selectedIconPath": "images/video.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/category.png",
+        "selectedIconPath": "images/category.png"
       }
     ]
   },
@@ -32,7 +39,10 @@
     "van-search": "dist/search/index",
     "van-row": "dist/row/index",
     "van-col": "dist/col/index",
-    "van-card": "dist/card/index"
+    "van-card": "dist/card/index",
+    "van-tab": "dist/tab/index",
+    "van-tabs": "dist/tabs/index",
+    "van-button": "dist/button/index"
   },
   "plugins": {
     "tencentvideo": {
