@@ -1,0 +1,23 @@
+
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+
+<view class="container">
+  <!-- 滚动列表 -->
+  <scroll-view scrool-y="true">
+                                                             <!-- 列表项添加自定义数据属性 -->
+    <view class='article' bindtap='f1' wx:for="{{videoList}}" data-link='{{item.link}}' data-title='{{item.title}}'>
+      <view class='left'>
+        <image class='image2' src='{{item.imgsrc}}'></image>
+      </view>
+      <view class='right'>
+        <text>
+           <text class='title'>{{item.title}}</text>
+        </text>
+         
+      </view>
+    </view>
+
+    
+
+  </scroll-view>
+</view>
