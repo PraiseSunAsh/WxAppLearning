@@ -40,6 +40,13 @@
   </van-tab>
 
   <van-tab title="视频">
-
+    <view>
+      数据库测试
+    </view>
+    <button bindtap='f1'>添加数据</button>
+    <button bindtap='f2'>查询数据</button>
+    <button bindtap='f3'>更新数据</button>
+    <button bindtap='f4'>删除数据</button>
+    
   </van-tab>
 </van-tabs>
