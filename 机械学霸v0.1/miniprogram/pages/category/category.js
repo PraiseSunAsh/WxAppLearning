@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    active: 0
+    active: 0,
+    grids: [0, 1, 2, 3, 4, 5, 6, 7]
   },
 
   /**
@@ -63,7 +64,29 @@ Page({
   onShareAppMessage: function () {
 
   },
-  onChange(event) {
-    
+  
+  switch(event){
+    if (event.currentTarget.dataset.currentIndex==0){
+      wx.navigateTo({
+        url: '../jxyl/jxyl',
+      });
+    }
+
+    if (event.currentTarget.dataset.currentIndex == 1) {
+      wx.navigateTo({
+        url: '../jxsj/jxsj',
+      });
+    }
+
+    if (event.currentTarget.dataset.currentIndex == 2) {
+      wx.navigateTo({
+        url: '../jxsj/jxsj',
+      });
+    }
+
+
+
+
   }
+
 })

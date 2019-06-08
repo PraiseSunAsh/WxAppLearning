@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#44b549",
+    "navigationBarTitleText": "机械原理",
+    "navigationBarTextStyle": "black"
+  }
+}

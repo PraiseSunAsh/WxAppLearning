@@ -4,7 +4,10 @@
     "pages/video/video",
     "pages/reading_detail/reading_detail",
     "pages/video_detail/video_detail",
-    "pages/category/category"
+    "pages/category/category",
+    "pages/jxyl/jxyl",
+    "pages/jxsj/jxsj",
+    "pages/jxzz/jxzz"
   ],
   "window": {
     "backgroundTextStyle": "light",

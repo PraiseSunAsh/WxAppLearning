@@ -1,45 +1,59 @@
 <van-tabs active="{{ active }}" bind:change="onChange" color="#44b549">
   <van-tab title="文章">
-    <view class='col'>
-      <view class='row'>
-        <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      </view>
-
-      <view class='row'>
-        <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      </view>
-
-      <view class='row'>
-        <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      </view>
-
-      <view class='row'>
-        <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      <view>
-        <van-button plain type="primary">朴素按钮</van-button>
-      </view>
-      </view>
+    
+    <view class='cate'>
+      <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active" data-current-index='{{index}}' bindtap='switch'>
+                    <image class="weui-grid__icon" src="../../images/jxyl.png" wx:if="{{index==0}}"/>
+                    <image class="weui-grid__icon" src="../../images/jxsj.png" wx:if="{{index==1}}"/>
+                    <image class="weui-grid__icon" src="../../images/jxzz.png" wx:if="{{index==2}}"/>
+                    <image class="weui-grid__icon" src="../../images/cad.png" wx:if="{{index==3}}"/>
+                    <image class="weui-grid__icon" src="../../images/gjjs.png" wx:if="{{index==4}}"/>
+                    <image class="weui-grid__icon" src="../../images/kyzq.png" wx:if="{{index==5}}"/>
+                    <image class="weui-grid__icon" src="../../images/bysj.png" wx:if="{{index==6}}"/>
+                    <image class="weui-grid__icon" src="../../images/zyxz.png" wx:if="{{index==7}}"/>
+                    
+                    <view class="weui-grid__label" wx:if="{{index==0}}">机械原理</view>
+                    <view class="weui-grid__label" wx:elif="{{index==1}}">机械设计</view>
+                    <view class="weui-grid__label" wx:elif="{{index==2}}">机械制造</view>
+                    <view class="weui-grid__label" wx:elif="{{index==3}}">CAD/CAM</view>
+                    <view class="weui-grid__label" wx:elif="{{index==4}}">工匠精神</view>
+                    <view class="weui-grid__label" wx:elif="{{index==5}}">考研专区</view>
+                    <view class="weui-grid__label" wx:elif="{{index==6}}">毕业设计</view>
+                    <view class="weui-grid__label" wx:elif="{{index==7}}">资源下载</view>
+                </navigator>
+            </block>
+        </view>
     </view>
+    
   </van-tab>
 
   <van-tab title="视频">
-
+      <view class='cate'>
+      <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/jxyl.png" wx:if="{{index==0}}"/>
+                    <image class="weui-grid__icon" src="../../images/jxsj.png" wx:if="{{index==1}}"/>
+                    <image class="weui-grid__icon" src="../../images/jxzz.png" wx:if="{{index==2}}"/>
+                    <image class="weui-grid__icon" src="../../images/cad.png" wx:if="{{index==3}}"/>
+                    <image class="weui-grid__icon" src="../../images/gjjs.png" wx:if="{{index==4}}"/>
+                    <image class="weui-grid__icon" src="../../images/more.png" wx:if="{{index==5}}"/>
+                    <image class="weui-grid__icon" src="../../images/more.png" wx:if="{{index==6}}"/>
+                    <image class="weui-grid__icon" src="../../images/more.png" wx:if="{{index==7}}"/>
+                    
+                    <view class="weui-grid__label" wx:if="{{index==0}}">机械原理</view>
+                    <view class="weui-grid__label" wx:elif="{{index==1}}">机械设计</view>
+                    <view class="weui-grid__label" wx:elif="{{index==2}}">机械制造</view>
+                    <view class="weui-grid__label" wx:elif="{{index==3}}">CAD/CAM</view>
+                    <view class="weui-grid__label" wx:elif="{{index==4}}">工匠精神</view>
+                    <view class="weui-grid__label" wx:elif="{{index==5}}">待添加</view>
+                    <view class="weui-grid__label" wx:elif="{{index==6}}">待添加</view>
+                    <view class="weui-grid__label" wx:elif="{{index==7}}">待添加</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
   </van-tab>
 </van-tabs>
