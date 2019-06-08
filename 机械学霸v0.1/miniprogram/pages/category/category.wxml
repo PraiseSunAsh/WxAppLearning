@@ -30,6 +30,7 @@
   </van-tab>
 
   <van-tab title="视频">
+<<<<<<< HEAD
       <view class='cate'>
       <view class="weui-grids">
             <block wx:for="{{grids}}" wx:key="*this">
@@ -55,5 +56,15 @@
             </block>
         </view>
     </view>
+=======
+    <view>
+      数据库测试
+    </view>
+    <button bindtap='f1'>添加数据</button>
+    <button bindtap='f2'>查询数据</button>
+    <button bindtap='f3'>更新数据</button>
+    <button bindtap='f4'>删除数据</button>
+    
+>>>>>>> d6f35389e1a392a52d5158957e2bbe2ff5907f6f
   </van-tab>
 </van-tabs>
